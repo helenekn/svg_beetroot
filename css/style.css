@@ -1,0 +1,165 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html,
+body {
+   min-height: 100vh;
+   font-family: "Roboto", sans-serif;
+   background: #ffffff;
+   color: #16133d;
+   font-weight: 400;
+   font-size: 16px;
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.main {
+   margin-bottom: 100px;
+}
+
+.container {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.header {
+   padding-top: 22px;
+   padding-bottom: 23px;
+   margin-bottom: 100px;
+   border-bottom: 1px solid #efeef3;
+}
+
+.logo {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   gap: 13px;
+   max-width: 100%;
+}
+
+.logo__title {
+   font-family: "Quicksand";
+   font-weight: 500;
+   font-size: 35px;
+   line-height: 1;
+}
+
+.service__subtitle {
+   line-height: 1.3;
+   color: #7690a8;
+   margin-bottom: 15px;
+}
+
+.service__title {
+   font-family: "Nunito Sans";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 1.3;
+   letter-spacing: 0.2px;
+   margin-bottom: 40px;
+}
+
+.container__service {
+   margin-bottom: 40px;
+}
+
+.content {
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+   flex-wrap: wrap;
+}
+
+.article {
+   display: flex;
+   flex-direction: column;
+   text-align: start;
+   gap: 30px;
+   max-width: 370px;
+   padding: 40px;
+   border: 1px solid #e5eaf4;
+}
+
+.article__img img {
+   width: 64px;
+   height: 64px;
+   padding: 12px;
+   border: 1px solid #1565d81a;
+   border-radius: 16px;
+}
+
+.article__img_green {
+   display: none;
+}
+
+.article:hover {
+   border: 1px solid #3db370;
+}
+
+.article:hover .article__img_blue {
+   display: none;
+}
+
+.article:hover .article__img_green {
+   display: block;
+}
+
+.article__title {
+   font-size: 24px;
+   line-height: 0.88;
+   letter-spacing: 0.2px;
+   margin-bottom: 15px;
+}
+
+.article__descr p {
+   font-size: 15px;
+   line-height: 1.75;
+}
+
+.article__link {
+   font-weight: 600;
+   line-height: 19px;
+   color: #3db370;
+}
+
+.footer {
+   background: #16133d;
+   color: #ffffff;
+   padding: 40px 0;
+}
+
+.container-footer {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   gap: 40px;
+}
+
+.social {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   list-style: none;
+}
+
+.social__link {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 38px;
+   width: 38px;
+   background: #efeef3;
+   border-radius: 5px;
+}
+
+.social__icon {
+   fill: #0d0d0d;
+}
+
+.social__link:hover .social__icon {
+   fill: #3db370;
+}
