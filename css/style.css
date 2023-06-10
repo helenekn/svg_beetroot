@@ -83,6 +83,10 @@ body {
    border: 1px solid #e5eaf4;
 }
 
+.article__img {
+   display: flex;
+}
+
 .article__img img {
    width: 64px;
    height: 64px;
